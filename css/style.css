@@ -1,0 +1,18 @@
+/* Style général pour toutes les zones */
+.zone {
+    width: 200px; /* Largeur des zones */
+    height: 150px; /* Hauteur des zones */
+    background-color: #3498db; /* Couleur de fond des zones */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Alignement du texte au centre horizontalement */
+    line-height: 150px; /* Centrage vertical du texte */
+    margin: 20px auto; /* Marges automatiques pour centrer la zone */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer une interaction possible */
+    border-radius: 10px; /* Bords arrondis pour les zones */
+    transition: background-color 0.5s; /* Transition douce pour le changement de couleur */
+}
+
+/* Change la couleur des zones lors du survol */
+.zone:hover {
+    background-color: #2980b9; /* Couleur de fond lors du survol */
+}
